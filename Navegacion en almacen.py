@@ -54,5 +54,6 @@ def verificar_recogida_productos(almacen,movimientos_correctos):
         return True
     else:
         return False
-movimientos_correctos = ['D', 'D', 'R', 'R', 'U', 'R', 'U', 'D', 'L', 'D', 'L', 'L', 'U', 'U']
-print(verificar_recogida_productos(almacen,movimientos_correctos))
+if __name__ == "__main__":
+    movimientos_correctos = ['D', 'D', 'R', 'R', 'U', 'R', 'U', 'D', 'L', 'D', 'L', 'L', 'U', 'U']
+    print(verificar_recogida_productos(almacen,movimientos_correctos))

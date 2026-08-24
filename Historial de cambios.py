@@ -14,17 +14,17 @@ def deshacer_cambios(historial):
     else:
         print("No hay cambios para deshacer :>")
         return None
+if __name__ == "__main__":
+    #Simulacion
+    historial_cambios=[]
 
-#Simulacion
-historial_cambios=[]
-
-registrar_cambios(historial_cambios,  'A1', 10)
-registrar_cambios(historial_cambios, 'B2', 20)
-print("Resultado 1")
-print(historial_cambios)
-print("---------------------------------")
-deshacer_cambios(historial_cambios)
-print("Resultado 2")
-print(historial_cambios)
-print("----------------------------------")
-print("Fin :D")
+    registrar_cambios(historial_cambios,  'A1', 10)
+    registrar_cambios(historial_cambios, 'B2', 20)
+    print("Resultado 1")
+    print(historial_cambios)
+    print("---------------------------------")
+    deshacer_cambios(historial_cambios)
+    print("Resultado 2")
+    print(historial_cambios)
+    print("----------------------------------")
+    print("Fin :D")

@@ -35,14 +35,13 @@ class Estadistica:
         for numero,veces in frecuencias:
             print(numero, "*" * veces)
 
-
-lista=Estadistica([1,3,2,4, 2, 2, 3, 2, 4, 1, 2, 1, 2, 3, 1, 3, 1])
-print("Frecuencia:",lista.frecuencia())
-print("-----------------------------------------------------")
-print("la moda es:",lista.moda())
-print("-----------------------------------------------------")
-print("Histograma")
-lista.histograma()
-print("-----------------------------------------------------")
-print("Fin :D")
-
+if __name__ == "__main__":
+    lista=Estadistica([1,3,2,4, 2, 2, 3, 2, 4, 1, 2, 1, 2, 3, 1, 3, 1])
+    print("Frecuencia:",lista.frecuencia())
+    print("-----------------------------------------------------")
+    print("la moda es:",lista.moda())
+    print("-----------------------------------------------------")
+    print("Histograma")
+    lista.histograma()
+    print("-----------------------------------------------------")
+    print("Fin :D")
