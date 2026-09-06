@@ -1,3 +1,11 @@
+#Nombre: Azul Hernandez Garcia
+#Grupo: 951
+#Fecha de realización: 5 de septiembre de 2026
+#Descripción del problema: Implementar un proceso de web scraping
+#utilizando la librería Selenium de Python, aplicado sobre la página
+#de compras MercadoLibre México.
+
+
 import time
 
 from selenium import webdriver
